@@ -5,7 +5,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-let filmer = ["Inception", "Titanic", "Matrix", "Avatar", "Joker"];
+let filmer = ["Inception", "Titanic", "Matrix", "Death Note", "Børning"];
 
 for (let i = 0; i < filmer.length; i++) {
   console.log(i + ": " + filmer[i]);
